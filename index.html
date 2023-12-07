@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <style>
+    /* i{
+      width: 100%;
+      background-color: rgb(255, 255, 255);
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-left: 30px;
+    } */
+  </style>
+
+</head>
+
+<body>
+
+  <div id="login-container">
+    <h1>Login</h1>
+    <form action="#">
+      <label for="email">Email</label>
+      <input type="email" required name="email" id="email" placeholder="Digite o seu e-mail" autocomplete="off">
+      <label for="password">Senha</label>
+      <input type="password" required name="password" id="password" placeholder="Digite a sua senha">
+      <a href="#" id="forgot-pass">Esqueceu a senha ?</a>
+      <input type="submit" id="button" value="login">
+    </form>
+
+    <div id="social-container">
+      <p>Ou entre pelas suas redes sociais</p>
+  
+      <div id="icons">     
+         <i class="fa-brands fa-facebook fa-beat" style="color: #2d4a7a;"></i>
+
+      <i class="fa-brands fa-linkedin fa-beat" style="color: #085b90;"></i>
+
+      <i class="fa-brands fa-whatsapp fa-beat" style="color: #2ce22f;"></i></div>
+
+
+    </div>
+    <div id="registre-contrainer">
+      <p>Ainda não tem uma conta ?</p>
+      <a href="#">Registrar</a>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
